@@ -1,0 +1,53 @@
+[
+  {
+    "category": "section",
+    "id": "main_section",
+    "label": "Basic Information",
+    "hidden": false,
+    "children": [
+      {
+        "rir_field_names": [
+          "table_column_description"
+        ],
+        "constraints": {
+          "required": false
+        },
+        "default_value": null,
+        "category": "datapoint",
+        "id": "address",
+        "label": "Address",
+        "hidden": false,
+        "type": "string"
+      },
+      {
+        "rir_field_names": [
+          "table_column_description"
+        ],
+        "constraints": {
+          "required": false
+        },
+        "default_value": null,
+        "category": "datapoint",
+        "id": "local_address",
+        "label": "Local Address",
+        "hidden": false,
+        "type": "string"
+      },
+      {
+        "rir_field_names": [
+          "table_column_description"
+        ],
+        "constraints": {
+          "required": false
+        },
+        "default_value": null,
+        "category": "datapoint",
+        "id": "text",
+        "label": "Text",
+        "hidden": false,
+        "type": "string"
+      }
+    ],
+    "icon": null
+  }
+]
