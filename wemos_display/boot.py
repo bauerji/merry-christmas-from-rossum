@@ -10,10 +10,6 @@ esp.osdebug(None)
 
 gc.collect()
 
-print(WIFI_CREDENTIALS.get("hostname"))
-print(WIFI_CREDENTIALS.get("ssid"))
-print(WIFI_CREDENTIALS.get("password"))
-# /dev/cu.usbserial-110
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(WIFI_CREDENTIALS.get("ssid"), WIFI_CREDENTIALS.get("password"))
