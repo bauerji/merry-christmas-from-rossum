@@ -77,7 +77,7 @@ Since most of people does not have a private IP we need to create another http s
 ### Prepare Rossum python function extension
 - visit [rossum-elis](https://elis.rossum.ai)
 - update queue schema according to [schema.json](./static/schema.json) (it creates 3 string fields: `address` (url of our ngrok server), `local_address` (local address of our d1 mini server), `text` (text message to display on our display))
-- create function extension ![functio extension](./static/create_extension.png) attached to the queue with updated schema
+- create function extension ![function extension](./static/create_extension.png) attached to the queue with updated schema
 - set the trigger event `document content - export`
 - update function code according to [function.py](./static/function.py)
 
@@ -95,3 +95,10 @@ Since most of people does not have a private IP we need to create another http s
 - click the Confirm button ![confirm](./static/confirm.png)
 - the document gets exported
 - you should see the message on your display! :tada:
+
+### 3D printed enclosure
+Now that we have working prototype we can use 3D printer and create a case for our device
+There are several cases on [thingiverse](https://www.thingiverse.com) we could use e.g. [this one](https://www.thingiverse.com/thing:2448685)
+- solder wires
+- print case
+- put it all together ![case](./static/case.png)
